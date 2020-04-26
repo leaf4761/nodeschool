@@ -1,0 +1,1 @@
+console.log(process.argv.slice(2).reduce((prev, cur) => prev += +cur, 0))
